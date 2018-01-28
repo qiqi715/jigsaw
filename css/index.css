@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+input {
+    border: 0;
+    padding: 0;
+    outline: none;
+}
+.wrap {
+    width: 900px;
+    margin: 5px auto;
+}
+.list {
+    float: left;
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+.list li {
+    position: absolute;
+    background: url(../img/img1.jpeg) 0 0 no-repeat;
+    cursor: default;
+    border-radius: 5px;
+}
+.list .active {
+    border: 2px solid red;
+    margin: -2px;
+}
+.right-box {
+    float: left;
+    margin-left: 20px;
+}
+.pic {
+    width: 200px;
+    height: 200px;
+    background: url(../img/img1.jpeg) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.btns {
+    margin-left: 20px;
+}
+.btn {
+    margin-top: 20px;
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+}
+.pannel {
+    padding-left: 20px;
+    font: 16px/30px "微软雅黑";
+}
+.pannel span {
+    padding:  0 8px;
+    font-weight: 700;
+    color: #7c1212;
+}
